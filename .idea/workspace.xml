@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c13dac83-6352-44a5-bdb8-68613a451e2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/assets/js/loadImg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/assets/loader/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/media.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/model/League.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/model/LeagueDetail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/model/Team.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/module/m_league/league.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/module/m_team/team.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/step.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/trash/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/trash/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atol_TugasUas/trash/tampilkan_json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/MaterialIcons-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/MaterialIcons-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/fonts/material-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/img/avatars/avatar1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/img/avatars/avatar2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/img/avatars/avatar3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/img/avatars/avatar4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/img/avatars/avatar5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/img/dogs/image2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/daftar-bahan-baku-tambah.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/daftar-bahan-baku.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/daftar-menu-resep.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/daftar-menu-tambah-resep.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/daftar-menu-tambah.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/daftar-menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/kuisioner-tambah.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/kuisioner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/meja-edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/meja-tambah.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/meja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/pembayaran-proses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/pembayaran.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/pesanan-proses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/pesanan-tambah-menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/pesanan-tambah.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RestoranBroto/pesanan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RetrofitRestApi1/includes/Constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RetrofitRestApi1/includes/DbConnect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RetrofitRestApi1/includes/DbOperation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/Contributing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/css/autoFill.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/css/autoFill.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/css/autoFill.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/css/autoFill.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/css/autoFill.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/css/autoFill.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/css/autoFill.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/css/autoFill.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/alwaysAsk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/fills.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/focus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/keyTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/initialisation/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/js/autoFill.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/js/autoFill.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/js/autoFill.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/js/autoFill.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/js/autoFill.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/js/autoFill.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/js/dataTables.autoFill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/AutoFill/js/dataTables.autoFill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/buttons.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/css/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/api/addRemove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/api/enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/api/group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/api/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/api/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/columnGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/columnsToggle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/restore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/stateSave.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/column_visibility/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/copyi18n.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/filename.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/hidden.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/pdfMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/pdfPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/swfPath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/flash/tsv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/copyi18n.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/filename.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/outputFormat-function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/outputFormat-orthogonal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/pdfImage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/pdfMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/pdfOpen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/pdfPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/html5/tsv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/className.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/collections-autoClose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/collections-sub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/collections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/export.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/keys.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/pageLength.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/initialisation/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/print/autoPrint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/print/columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/print/customisation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/print/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/print/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/print/select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/print/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/styling/bootstrap4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/styling/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.colVis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.colVis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.flash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.flash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/buttons.print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/dataTables.buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/js/dataTables.buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Buttons/swf/flashExport.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/css/colReorder.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/css/colReorder.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/css/colReorder.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/css/colReorder.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/css/colReorder.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/css/colReorder.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/css/colReorder.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/css/colReorder.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/initialisation/col_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/initialisation/new_init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/initialisation/predefined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/initialisation/realtime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/initialisation/reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/initialisation/scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/initialisation/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/integration/colvis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/integration/fixedcolumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/integration/fixedheader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/integration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/integration/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/integration/server_side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/integration/state_save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/styling/alt_insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/js/dataTables.colReorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/ColReorder/js/dataTables.colReorder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/css/fixedColumns.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/css/fixedColumns.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/css/fixedColumns.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/css/fixedColumns.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/css/fixedColumns.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/css/fixedColumns.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/css/fixedColumns.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/css/fixedColumns.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/colvis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/css_size.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/index_column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/left_right_columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/right_column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/server-side-processing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/size_fixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/size_fluid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/initialisation/two_columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/integration/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/integration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/integration/select-checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/integration/select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/col_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/colvis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/rowspan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/examples/styling/server-side-processing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/css/fixedHeader.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/css/fixedHeader.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/css/fixedHeader.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/css/fixedHeader.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/css/fixedHeader.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/css/fixedHeader.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/css/fixedHeader.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/css/fixedHeader.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/integration/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/integration/colreorder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/integration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/integration/responsive-bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/integration/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/enable-disable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/header_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/horizontal-scroll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/offset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/show-hide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/options/two_tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/css/keyTable.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/css/keyTable.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/css/keyTable.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/css/keyTable.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/css/keyTable.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/css/keyTable.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/css/keyTable.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/css/keyTable.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/initialisation/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/initialisation/scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/initialisation/server-side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/initialisation/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/initialisation/stateSave.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/styling/focusStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/js/dataTables.keyTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/KeyTable/js/dataTables.keyTable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/css/responsive.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/css/responsive.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/css/responsive.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/css/responsive.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/css/responsive.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/css/responsive.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/css/responsive.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/css/responsive.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/child-rows/column-control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/child-rows/custom-renderer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/child-rows/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/child-rows/right-column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/child-rows/whole-row-control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/column-control/auto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/column-control/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/column-control/colreorder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/column-control/column-visibility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/column-control/columnPriority.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/column-control/fixedHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/column-control/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/column-control/init-classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/display-types/bootstrap-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/display-types/foundation-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/display-types/immediateShow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/display-types/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/display-types/jqueryui-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/display-types/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/initialisation/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/initialisation/className.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/initialisation/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/initialisation/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/initialisation/option.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/styling/compact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/examples/styling/scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/js/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/js/dataTables.responsive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/js/responsive.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/js/responsive.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/js/responsive.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/js/responsive.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/js/responsive.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Responsive/js/responsive.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/css/rowReorder.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/css/rowReorder.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/css/rowReorder.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/css/rowReorder.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/css/rowReorder.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/css/rowReorder.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/css/rowReorder.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/css/rowReorder.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/initialisation/defaults.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/initialisation/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/initialisation/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/initialisation/restrictedOrdering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/initialisation/scroll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/initialisation/selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/initialisation/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/styling/reorderClass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/examples/styling/snapX.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/js/dataTables.rowReorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/RowReorder/js/dataTables.rowReorder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/css/scroller.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/css/scroller.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/css/scroller.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/css/scroller.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/css/scroller.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/css/scroller.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/css/scroller.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/css/scroller.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/data/2500.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/data/ssp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/initialisation/api_scrolling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/initialisation/fixedColumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/initialisation/large_js_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/initialisation/server-side_processing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/initialisation/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/initialisation/state_saving.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/js/dataTables.scroller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Scroller/js/dataTables.scroller.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/css/select.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/css/select.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/css/select.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/css/select.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/css/select.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/css/select.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/css/select.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/css/select.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/api/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/api/get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/api/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/api/select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/blurable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/cells.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/deferRender.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/i18n.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/multi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/reload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/initialisation/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/styling/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/styling/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/styling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/examples/styling/jqueryui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/js/dataTables.select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/extensions/Select/js/dataTables.select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.uikit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/dataTables.uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/images/Sorting icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.material.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.uikit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/dataTables.uikit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/DataTables-1.10.11/media/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/cek_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/media.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_books/aksi_books.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_books/autosugest/ambilDataPlg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_books/autosugest/jquery-1.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_books/autosugest/jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_books/autosugest/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_books/autosugest/proses_nama.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_books/autosugest/searchautosugest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_books/books.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_dashboard/aksi_dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_dashboard/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_genrebook/aksi_genre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_genrebook/genre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_letak/aksi_letak.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_letak/letak.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_member/aksi_member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_member/cari_kota.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_member/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_member/member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_modul/aksi_modul.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_modul/modul.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_user/aksi_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/modul/mod_user/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/adminweb/submenu_genre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/css/jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/fondasi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/css/foundation-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/css/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/css/foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/img/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.abide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.clearing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.equalizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.interchange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.joyride.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.magellan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.offcanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.orbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.reveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/foundation/foundation.topbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/vendor/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/vendor/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/vendor/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/vendor/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/js/vendor/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-5/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/.fontcustom-data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/foundation-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/foundation-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/foundation-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/foundation-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/foundation-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-address-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-align-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-align-justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-align-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-align-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-anchor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-annotate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-arrows-compress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-arrows-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-arrows-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-arrows-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-asl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-asterisk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-at-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-background-color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-battery-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-battery-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-battery-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-bitcoin-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-bitcoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-blind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-bluetooth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-book-bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-braille.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-burst-new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-burst-sale.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-burst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-clipboard-notes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-clipboard-pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-closed-caption.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-comment-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-comment-quotes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-comment-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-compass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-contrast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-crop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-css3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-database.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-die-five.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-die-four.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-die-one.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-die-six.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-die-three.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-die-two.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-dislike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-dollar-bill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-dollar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-eject.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-elevator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-euro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-fast-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-female-symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-first-aid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-folder-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-folder-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-foot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-foundation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-graph-bar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-graph-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-graph-pie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-graph-trend.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-guide-dog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-hearing-aid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-html5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-indent-less.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-indent-more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-layout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-lightbulb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-list-bullet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-list-number.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-list-thumbnails.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-magnifying-glass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-male-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-male-symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-male.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-marker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-megaphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-microphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-minus-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-mobile-signal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-monitor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-mountains.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-no-dogs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-no-smoking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-csv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-doc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-export-csv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-export-doc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-export-pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-export.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-filled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-multiple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page-search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-page.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-paint-bucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-paperclip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-paw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-paypal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-play-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-play-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-pound.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-power.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-previous.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-price-tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-pricetag-multiple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-print.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-prohibited.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-projection-screen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-puzzle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-record.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-results-demographics.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-results.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-rewind-ten.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-rewind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-safety-cone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-sheriff-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-shopping-bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-skull.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-500px.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-adobe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-amazon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-android.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-behance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-bing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-blogger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-delicious.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-designer-news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-deviant-art.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-digg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-drive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-dropbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-evernote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-flickr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-forrst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-foursquare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-game-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-google-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-hacker-news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-hi5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-joomla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-lastfm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-myspace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-orkut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-path.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-picasa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-rdio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-reddit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-skillshare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-smashing-mag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-snapchat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-spotify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-squidoo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-stack-overflow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-steam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-stumbleupon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-treehouse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-tumblr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-vimeo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-windows.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-xbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-yahoo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-yelp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-zerply.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-social-zurb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-sound.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-stop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-strikethrough.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-subscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-superscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-tablet-landscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-tablet-portrait.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-target-two.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-telephone-accessible.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-telephone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-text-color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-thumbnails.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-ticket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-torso-business.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-torso-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-torso.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-torsos-all-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-torsos-all.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-torsos-female-male.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-torsos-male-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-torsos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-trees.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-trophy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-universal-access.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-unlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-upload-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-usb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-volume-none.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-volume-strike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-web.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-wheelchair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-widget.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-wrench.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-x-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-yen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/foundation-icons/svgs/fi-zoom-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/js/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/js/jquery-1.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/js/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/php/ambilDataPlg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/php/proses_nama.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/sweetalert/sweetalert-dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/assets/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/10imengajar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/11cnar1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/13cdlb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/14k25nabiku.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/1599klb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/15bprtipa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/15pslswds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/17cci.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/1kam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/20etm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/20kkcknc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/20mbertuturlagi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/21csww.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/21skkn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/22dyou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/23edensor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/23yot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/24batb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/24bgg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/24kgpbi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/24n5menara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/24petir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/25ccc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/26kllwnddaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/27kkbud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/285cm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/28ccsep.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/28dskdad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/29kbjbj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/29padi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/29ralp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/2gmtda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/2lupaindonesa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/30dsk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/30fkopi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/30mbertutur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/31cdpnddm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/32bdubwn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/33ayah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/33bgdbs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/33kpvbn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/34dfikan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/36blink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/37ccivilwar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/37laskarp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/38kkoi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/38sstbs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/39itm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/39kapdj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/3bmanusia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/3cctps.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/3klbs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/40kkebidanan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/41cnaruto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/42gpb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/42kij.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/43bgtra.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/44ckbbi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/44hbdk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/46dfmamaliabm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/46kbi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/46sdrwddf5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/48cnar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/48stgcdm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/48ylg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/4fislam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/4kkksadri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/51cjam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/51kbkukh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/52dalanggn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/53cdeadpool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/53csm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/53klainnya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/53klinguistikek.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/54kl10m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/54mkarpov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/54padangbulan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/56andynoya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/56csjukiks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/56smsj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/57aac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/57aadc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/57jkw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/57jonpakir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/57petir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/59bdtsotj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/59bsppw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/59outliers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/59tpb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/60orangmaiyah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/62csjukillak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/63kaijsdepfdi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/63mkar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/64ckrowel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/64hujan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/65c5cm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/66fkebinekaan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/67bbuya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/67ccskkk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/67danna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/68sharing2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/68tsax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/6cbleach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/6petir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/6tma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/70akar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/71hpatss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/72chg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/73bsgpk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/73gdks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/74bmipa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/74cfas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/74ckcri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/74cmsatems.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/74ifals.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/74rmuara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/75ctsas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/75kam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/75kikda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/76cgaruda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/76clupus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/77ssk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/78cdgsx5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/79petir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/80ibdds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/80sangpmimpi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/81tp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/82aidit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/82dag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/82rayt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/83rimpdm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/84cksshulk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/85aakpp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/85bppcc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/85cdus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/85dblk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/85pk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/86cinta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/87fmmki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/87tsm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/88asb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/8blimadilan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/8dfwl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/8kii.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/90kapm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/91cpjb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/91jlangkah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/92hbj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/92kidemak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/95bck13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/95bsrk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/95ckm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/96arusbawah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/96jjanck.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/97cmarvel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/99ccinderellaip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/9blvbum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/books_image/9gpantai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/cek_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/config/fungsi_thumbnail_book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/config/koneksi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/config/library.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/database/bookstore.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/images/cart-73-xxl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/images/logo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/images/logo_indomaret.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/indomaret/aksi_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/indomaret/aksi_cek.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/indomaret/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/media.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/aset_konek/atas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/aset_konek/bawah.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/aset_konek/label_buku.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_all/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_bayar/bayar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_biografi/biografi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_cart/aksi_cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_cart/aksi_order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_cart/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_cart/order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_comgram/comgram.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_edukasi/edukasi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_general/aksi_general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_general/general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_inspirasi/inspirasi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_islamfalsafah/islam-falsafah.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_kamus/kamus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_komik/komik.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_member/aksi_member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_member/cari_kota.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_member/harus_daftarlogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_member/konten_member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_member/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_member/media_member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_member/member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_member/member_data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_novel/novel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_pdiri/pdiri.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_search/aksi_search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/modul/mod_sosbud/sosbud.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/note/guide.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/trash/coba.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/trash/delete_cart_auto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/trash/media_cart-view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/trash/trash_aksi_cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/trash/trash_cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bookstore/trash/trash_search.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/media.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/module/m_league/league.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/assets/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/model/Team.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/model/League.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/step.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sty</find>
+      <find>card</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/create.php" />
+        <option value="$PROJECT_DIR$/tampilkan_json.php" />
+        <option value="$PROJECT_DIR$/bola.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/assets/loadImg.js" />
+        <option value="$USER_HOME$/Downloads/Temporary/simple-pre-loader/index.html" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/loadImg.js" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/login.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/app.css" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/model/LeagueDetail.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/bola.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/index.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/content.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/model/Team.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/module/m_team/team.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/module/m_league/league.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/step.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/media.php" />
+        <option value="$PROJECT_DIR$/../Atol_TugasUas/model/League.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2" />
+    <option name="y" value="17" />
+    <option name="width" value="1278" />
+    <option name="height" value="752" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LatJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atol_TugasUas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atol_TugasUas" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atol_TugasUas" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="loader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atol_TugasUas" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atol_TugasUas" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atol_TugasUas" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="m_league" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="LatJson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$/../Atol_TugasUas" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$/../Atol_TugasUas" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$/../Atol_TugasUas" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="loader" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="LatJson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$/../Atol_TugasUas" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$/../Atol_TugasUas" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="LatJson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$/../Atol_TugasUas" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="loader" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="LatJson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$/../Atol_TugasUas" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Atol_TugasUas/assets/loader" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Atol_TugasUas/trash" />
+      <recent name="$PROJECT_DIR$/../Atol_TugasUas/assets/preload" />
+      <recent name="$PROJECT_DIR$/../Atol_TugasUas/css/assets" />
+      <recent name="$PROJECT_DIR$/../Atol_TugasUas/assets/js" />
+      <recent name="$PROJECT_DIR$/../Atol_TugasUas/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Atol_TugasUas/assets/loader" />
+      <recent name="$PROJECT_DIR$/../Atol_TugasUas/assets/preload" />
+      <recent name="$PROJECT_DIR$/../Atol_TugasUas" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c13dac83-6352-44a5-bdb8-68613a451e2a" name="Default Changelist" comment="" />
+      <created>1565421393130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565421393130</updated>
+      <workItem from="1565421394607" duration="7792000" />
+      <workItem from="1565438269802" duration="2136000" />
+      <workItem from="1565497400493" duration="49796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59724000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="-8" width="1370" height="778" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" sideWeight="0.5007657" side_tool="true" weight="0.25718608" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924962" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1057" column="9" selection-start-line="1057" selection-start-column="9" selection-end-line="1057" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/curl/curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="2113" column="9" selection-start-line="2113" selection-start-column="9" selection-end-line="2113" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="126" column="9" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/trash/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Temporary/simple-pre-loader/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/assets/js/loadImg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/css/assets/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/trash/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/trash/tampilkan_json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/model/LeagueDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/module/m_team/team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="3269" column="4" selection-start-line="3269" selection-start-column="4" selection-end-line="3269" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/model/Team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/module/m_league/league.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/step.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Atol_TugasUas/model/League.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
