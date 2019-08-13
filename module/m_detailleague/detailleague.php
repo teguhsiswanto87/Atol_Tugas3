@@ -65,17 +65,18 @@ $dataTeam = $team->getAllTeamOfLeague($league_id);
 
 <!--List Team in a League-->
 <div class="ui accordion">
-    <div class="ui header grey title">
+    <div class="ui header title">
         <i class="dropdown icon"></i>
         List of Teams
     </div>
     <div class="content">
-        <div class="ui six column grid transition hidden">
+        <div class="ui six column grid">
             <?php
             foreach ($dataTeam as $team) {
                 echo "<div class='column'>
                         <a href='media.php?m=team&id=$team[idTeam]' title='Go to detail this team'>
-                        <img class='ui tiny image' src='$team[strTeamBadge]'>        
+                        <div class='ui placeholder' style='width: 80px; height: 80px;'></div>
+                        <img class='ui tiny image' src='$team[strTeamBadge]' style='display: none;'>        
                             $team[strTeam]
                         </a>
                       </div>";

@@ -2,9 +2,11 @@
 // ambil vaitabel get
 $m = $_GET['m'];
 $id = (($m == 'detailleague')) ? $_GET['id'] : '';
+$id_team = (($m == 'team')) ? $_GET['id'] : '';
 
 // ambil data detail league berdasarkan id
 $dataDetailLeague = $leagueDetail->getLeagueDetail($id);
+$teamDetail = $team->getTeamDetail($id_team);
 
 if ($m == 'league') {
     $active_league = "active";
@@ -24,7 +26,8 @@ if ($m == 'league') {
     $disabled_detail_league = "";
     $disabled_team = "disabled";
     $disabled_player = "disabled";
-} elseif ($m == 'team') {
+    $id_detail_league = $dataDetailLeague['idLeague'];
+} elseif ($m == 'team' && $id_team != '') {
     $active_league = "";
     $active_detail_league = "";
     $active_team = "active";
@@ -33,6 +36,9 @@ if ($m == 'league') {
     $disabled_detail_league = "";
     $disabled_team = "";
     $disabled_player = "disabled";
+
+    $id_detail_league = $teamDetail['idLeague'];
+
 } elseif ($m == 'player') {
     $active_league = "";
     $active_detail_league = "";
@@ -56,7 +62,10 @@ if ($m == 'league') {
             <div class="description">The best leagues in the world</div>
         </div>
     </a>
-    <a class="<?php echo "$active_detail_league $disabled_detail_league"; ?> step" href="media.php?m=team">
+
+
+    <a class="<?php echo "$active_detail_league $disabled_detail_league"; ?> step"
+       href="media.php?m=detailleague&id=<?php echo "$id_detail_league"; ?>">
         <i class="trophy icon"></i>
         <div class="content">
             <div class="title">Detail League</div>
@@ -72,12 +81,21 @@ if ($m == 'league') {
             </div>
         </div>
     </a>
+
     <a class="<?php echo "$active_team
     $disabled_team"; ?> step">
         <i class="users icon"></i>
         <div class="content">
             <div class="title">Team</div>
-            <div class="description">Selected team</div>
+            <div class="description">
+                <?php
+                if ($m == 'team' && $id_team != '') {
+                    echo "You choose " . $teamDetail['strTeamShort'];
+                } else {
+                    echo "Selected team by league";
+                }
+                ?>
+            </div>
         </div>
     </a>
     <a class="<?php echo "$active_player
@@ -85,7 +103,7 @@ if ($m == 'league') {
         <i class="user icon"></i>
         <div class="content">
             <div class="title">Player</div>
-            <div class="description">Selected player by team</div>
+            <div class="description"> Selected Player</div>
         </div>
     </a>
     <a class="<?php echo "$active_player
