@@ -3,6 +3,31 @@
 class League
 {
     private $indexHalamanAwal = array();
+    private $jumlahDataPerHalaman = 18;
+
+    /**
+     * @return array
+     */
+    public function getIndexHalamanAwal()
+    {
+        return $this->indexHalamanAwal;
+    }
+
+    /**
+     * @return int
+     */
+    public function getJumlahDataPerHalaman()
+    {
+        return $this->jumlahDataPerHalaman;
+    }
+
+    /**
+     * @param int $jumlahDataPerHalaman
+     */
+    public function setJumlahDataPerHalaman($jumlahDataPerHalaman)
+    {
+        $this->jumlahDataPerHalaman = $jumlahDataPerHalaman;
+    }
 
     function getAllLeague($genre = "")
     {
@@ -42,11 +67,11 @@ class League
     }
 
 // untuk menampilkan dengan metode paging
-    function getAllLeaguePaging($genre, $halaman)
+    function getAllLeaguePaging($genre, $halaman = 1)
     {
         $league = $this->getAllLeague($genre);
 
-        $batas = 18;
+        $batas = $this->jumlahDataPerHalaman;
         if ($halaman == 1) {
             $posisi = 0;
         } else {
@@ -61,6 +86,16 @@ class League
         }
 
         return $leagues;
+    }
+
+// get jumlah halaman berdasarkan jumlah data dan batasannya / untuk menampilkan jumlah tombol paging
+    function getPageCount($genre)
+    {
+        $league = $this->getAllLeague($genre);
+        $jumlahHalaman = count($league) / $this->jumlahDataPerHalaman;
+        $jumlahHalaman = ceil($jumlahHalaman);
+
+        return $jumlahHalaman;
     }
 
 }

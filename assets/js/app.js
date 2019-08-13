@@ -1,3 +1,6 @@
+//Accordion
+$('.ui.accordion').accordion();
+
 // $('.image img')
 //     .visibility({
 //         type: 'image',

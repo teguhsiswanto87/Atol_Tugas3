@@ -1,14 +1,33 @@
+<?php
+//deklarasi model dan instansiasi objek disimpan di media.php
+
+$halaman = isset($_GET['p']) ? (int)$_GET['p'] : 1;
+$dataLeague = $league->getAllLeaguePaging("Soccer", $halaman);
+$dataLeagueNoPaging = $league->getAllLeague("Soccer");
+
+?>
+<!--Statistic-->
+<div class="ui mini horizontal statistic">
+    <div class="value first-capitalize" style="text-transform: lowercase;">
+        <?php
+        // total seluruh data
+        $data_total = count($dataLeagueNoPaging);
+        //data awal
+        $data_awal = $league->getIndexHalamanAwal();
+        $start = $data_awal[$halaman - 1] + 1;
+        //data akhir
+        $data_akhir = $league->getIndexHalamanAwal();
+        $jumlah_total_data = $league->getPageCount("Soccer");
+        $finish = ($halaman >= $jumlah_total_data) ? $data_total : $data_akhir[$halaman];
+
+        echo "Showing $start to $finish of $data_total leagues";
+        ?>
+    </div>
+</div>
+<!--Cards-->
 <div class="ui link cards " id="wakw">
     <h3 id="demo"></h3>
     <?php
-    include "model/League.php";
-    include "model/LeagueDetail.php";
-    include "model/Team.php";
-    $league = new League();
-    $leagueDetail = new LeagueDetail();
-    $team = new Team();
-
-    $dataLeague = $league->getAllLeague("Soccer");
 
     foreach ($dataLeague as $liga) {
         $countTeam = $team->getNumberTeamOfLeague($liga['idLeague']);
@@ -17,17 +36,18 @@
         <div class="card">
             <div class="ui placeholder" style="width: 290px; height: 290px;"></div>
             <div class="image" style="display: none;">
-                <img src="<?php
+                <img alt="" src="<?php
                 if (empty($league_detail['strBadge'])) {
                     echo "https://semantic-ui.com/images/wireframe/white-image.png";
                 }
                 echo "$league_detail[strBadge]";
                 ?>"
                      data-src="<?php echo "$league_detail[strBadge]"; ?>"
-                >
+                ><!--end of img-->
             </div>
             <div class="content">
-                <a class="header"><?php echo "$liga[strLeague]"; ?></a>
+                <a class="header"
+                   href="<?php echo "media.php?m=detailleague&id=$liga[idLeague]"; ?>"><?php echo "$liga[strLeague]"; ?></a>
                 <div class="meta">
                     <?php
                     $country_name_lower = strtolower($league_detail['strCountry']);
@@ -57,6 +77,27 @@
         </div>
 
     <?php } ?>
+</div>
+
+<!--Pagination-->
+<div class="ui grid">
+    <div class="row">
+        <div class="ui grid ten column centered">
+            <div class="ui pagination menu">
+                <?php
+                $jumlah_halaman = $league->getPageCount("Soccer");
+                for ($i = 1; $i <= $jumlah_halaman; $i++) {
+                    $active_page = ($halaman == $i) ? 'active' : '';
+                    echo "
+                    <a class='ui button item $active_page' href='media.php?m=league&p=$i'
+                     data-tooltip='Go to page $i ' data-position='top center'>
+                        $i
+                    </a>";
+                    ?>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="ui large centered inline text loader">

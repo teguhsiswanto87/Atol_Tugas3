@@ -24,7 +24,19 @@
 <div class="ui grid">
     <div class="row">
         <div class="column">
-            <?php include "step.php"; ?>
+            <?php
+            //deklarasi model
+            include "model/League.php";
+            include "model/LeagueDetail.php";
+            include "model/Team.php";
+            include "utils/library.php";
+            //instansiasi
+            $league = new League();
+            $leagueDetail = new LeagueDetail();
+            $team = new Team();
+
+            include "step.php";
+            ?>
         </div>
     </div>
     <div class="row">

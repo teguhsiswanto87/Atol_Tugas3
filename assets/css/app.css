@@ -3,4 +3,8 @@
     margin-left: 1.5rem !important;
 }
 
+.first-capitalize:first-letter {
+    text-transform: capitalize;
+}
+
 
