@@ -26,3 +26,9 @@ function ambilbulan($bln)
     elseif ($bln == "11") return "November";
     elseif ($bln == "12") return "December";
 }
+
+// format number for price
+function priceFormat($nominal)
+{
+    return number_format($nominal, 0, ",", ".");
+}

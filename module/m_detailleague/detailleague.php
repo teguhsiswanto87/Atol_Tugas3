@@ -1,7 +1,6 @@
 <?php
 //deklarasi model dan instansiasi objek
 
-
 $league_id = isset($_GET['id']) ? $_GET['id'] : '';
 $dataDetailLeague = $leagueDetail->getLeagueDetail($league_id);
 $dataTeam = $team->getAllTeamOfLeague($league_id);
@@ -18,7 +17,7 @@ $dataTeam = $team->getAllTeamOfLeague($league_id);
 
     <!--Header-->
     <div class="eight wide column">
-        <h1 class="ui header"><?php echo "$dataDetailLeague[strLeague]"; ?>
+        <h1 class="ui header centered"><?php echo "$dataDetailLeague[strLeague]"; ?>
             <div class="sub header"><?php echo "$dataDetailLeague[strLeagueAlternate]"; ?></div>
         </h1>
     </div>
@@ -72,14 +71,16 @@ $dataTeam = $team->getAllTeamOfLeague($league_id);
     <div class="content">
         <div class="ui six column grid">
             <?php
-            foreach ($dataTeam as $team) {
-                echo "<div class='column'>
+            if (!(empty($dataTeam))) {
+                foreach ($dataTeam as $team) {
+                    echo "<div class='column'>
                         <a href='media.php?m=team&id=$team[idTeam]' title='Go to detail this team'>
                         <div class='ui placeholder' style='width: 80px; height: 80px;'></div>
                         <img class='ui tiny image' src='$team[strTeamBadge]' style='display: none;'>        
                             $team[strTeam]
                         </a>
                       </div>";
+                }
             }
             ?>
         </div>
@@ -103,13 +104,28 @@ $dataTeam = $team->getAllTeamOfLeague($league_id);
         } ?>
     </div>
     <div class="column eleven wide">
-        <div class="description">
+        <div class="description" style="height: 20rem; overflow: hidden;" id="description_detail_league">
             <?php
             $texts = $leagueDetail->breakLongText($dataDetailLeague['strDescriptionEN']);
             foreach ($texts as $text) {
-                echo "<p class='right aligned'>$text </p>";
+                echo "<p>$text </p>";
             }
             ?>
+            <button class="ui grey basic button fluid" style="margin: 2rem auto; display: none;"
+                    id="btn_description_less">
+                Show less
+            </button>
+        </div>
+        <div class="column two wide">
+            <div class="ui grid column two wide centered">
+                <?php
+                $panjang_description = strlen($dataDetailLeague['strDescriptionEN']);
+                if ($panjang_description > 1000) { ?>
+                    <button class="ui primary basic button " style="margin: 2rem auto;" id="btn_description_more">Show
+                        more
+                    </button>
+                <?php } ?>
+            </div>
         </div>
     </div>
 </div>

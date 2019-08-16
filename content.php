@@ -7,6 +7,10 @@ if ($m == 'league') {
     include "module/m_detailleague/detailleague.php";
 } elseif ($m == 'team') {
     include "module/m_team/team.php";
+} elseif ($m == 'player') {
+    include "module/m_player/player.php";
+} else {
+    echo "Halaman $m sedang dibuat";
 }
 
 

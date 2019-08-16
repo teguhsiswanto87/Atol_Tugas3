@@ -29,11 +29,13 @@
             include "model/League.php";
             include "model/LeagueDetail.php";
             include "model/Team.php";
+            include "model/Player.php";
             include "utils/library.php";
             //instansiasi
             $league = new League();
             $leagueDetail = new LeagueDetail();
             $team = new Team();
+            $player = new Player();
 
             include "step.php";
             ?>
@@ -57,20 +59,9 @@
 
 </body>
 <script>
-    window.onload = function () {
-        var x = document.getElementsByClassName("placeholder");
-        var i;
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        $(".image").show();
-        // alert('COmponent loaded');
-        // $(".nakamura").show();
-        // $(".ui .placeholder").remove();
 
-        // image is loaded at this time
-        // alert(`Image size: ${img.offsetWidth}x${img.offsetHeight}`);
-    };
+    //show more or show less desription on detail league
+
 
 </script>
 <script src="assets/js/app.js"></script>

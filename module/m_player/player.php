@@ -1,7 +1,7 @@
 <?php
-$team_id = isset($_GET['id']) ? $_GET['id'] : '';
-$dataTeam = $team->getTeamDetail($team_id);
-$dataPlayer = $player->getAllPlayerOfTeam($team_id);
+$player_id = isset($_GET['id']) ? $_GET['id'] : '';
+//$dataTeam = $player->getTeamDetail($player_id);
+$dataPlayer = $player->getPlayerDetail($player_id);
 ?>
 <div class="ui grid">
     <!--Back Button -->
@@ -14,8 +14,8 @@ $dataPlayer = $player->getAllPlayerOfTeam($team_id);
 
     <!--Header-->
     <div class="eight wide column">
-        <h1 class="ui header centered"><?php echo "$dataTeam[strTeam]"; ?>
-            <div class="sub header"><?php echo "$dataTeam[strAlternate]"; ?></div>
+        <h1 class="ui header centered"><?php echo "$dataPlayer[strPlayer]"; ?>
+            <div class="sub header"><?php echo "$dataPlayer[strPosition]"; ?></div>
         </h1>
     </div>
 </div>
@@ -71,11 +71,10 @@ $dataPlayer = $player->getAllPlayerOfTeam($team_id);
             <?php
             if (!(empty($dataPlayer))) {
                 foreach ($dataPlayer as $player) {
-                    $link_foto = (!empty($player['strThumb'])) ? "$player[strThumb]" : "https://img.icons8.com/cotton/64/000000/person-male--v2.png";
                     echo "<div class='column'>
                         <a href='media.php?m=player&id=$player[idPlayer]' title='Click to see details of this player'>
                         <div class='ui placeholder' style='width: 80px; height: 80px;'></div>
-                        <img class='ui tiny circular image' src='$link_foto' style='display: none;'>        
+                        <img class='ui tiny circular image' src='$player[strThumb]' style='display: none;'>        
                             $player[strPlayer]
                         </a>
                       </div>";
@@ -117,13 +116,8 @@ $dataPlayer = $player->getAllPlayerOfTeam($team_id);
         </div>
         <div class="column two wide">
             <div class="ui grid column two wide centered">
-                <?php
-                $panjang_description = strlen($dataTeam['strDescriptionEN']);
-                if ($panjang_description > 1000) { ?>
-                    <button class="ui primary basic button " style="margin: 2rem auto;" id="btn_description_more">Show
-                        more
-                    </button>
-                <?php } ?>
+                <button class="ui primary basic button " style="margin: 2rem auto;" id="btn_description_more">Show more
+                </button>
             </div>
         </div>
     </div>
